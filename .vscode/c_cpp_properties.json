@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/include",
-                "C:/Users/ycode/Documents/mysql-connector-c++-9.3.0-winx64/mysql-connector-c++-9.3.0-winx64/include",
+                "C:/Users/ycode/Documents/mysql-connector-c++-9.3.0-winx64/mysql-connector-c++-9.3.0-winx64/include/jdbc",
                 "C:/Qt/6.9.0/mingw_64/include",
                 "C:/Qt/6.9.0/mingw_64/include/QtCore",
                 "C:/Qt/6.9.0/mingw_64/include/QtGui",
