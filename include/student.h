@@ -4,11 +4,17 @@
 #include <string>
 
 class Student {
-public:
+private:
     int id;
     std::string name;
     std::string email;
-    Student(int id, std::string name, std::string email) : id(id), name(name), email(email) {}
+
+public:
+    Student(int id, const std::string& name, const std::string& email)
+        : id(id), name(name), email(email) {}
+    int getId() const { return id; }
+    std::string getName() const { return name; }
+    std::string getEmail() const { return email; }
 };
 
 #endif

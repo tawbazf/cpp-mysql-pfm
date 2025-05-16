@@ -2,25 +2,36 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QTableWidget>
 #include "database_manager.h"
-
-class QTableWidget;
-class QPushButton;
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
-    MainWindow(DatabaseManager& db, QWidget *parent = nullptr);
+    MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
 
 private slots:
-    void refreshTable();
     void addStudent();
+    void updateStudent();
+    void deleteStudent();
+    void filterStudents();
+    void sortStudentsByNameAsc();
+    void sortStudentsByNameDesc();
+    void addGrade();
+    void updateGrade();
+    void deleteGrade();
+    void filterGrades();
+    void sortGradesByValueAsc();
+    void sortGradesByValueDesc();
+    void refreshStudentsTable();
+    void refreshGradesTable();
 
 private:
-    DatabaseManager& dbManager;
-    QTableWidget* tableWidget;
-    QPushButton* addButton;
+    DatabaseManager dbManager;
+    QTableWidget *tableWidget;
+    void setupUI();
 };
 
 #endif

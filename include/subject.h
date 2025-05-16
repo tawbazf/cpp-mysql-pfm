@@ -4,10 +4,14 @@
 #include <string>
 
 class Subject {
-public:
+private:
     int id;
     std::string name;
-    Subject(int id, std::string name) : id(id), name(name) {}
+
+public:
+    Subject(int id, const std::string& name) : id(id), name(name) {}
+    int getId() const { return id; }
+    std::string getName() const { return name; }
 };
 
 #endif
