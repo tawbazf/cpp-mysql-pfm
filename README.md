@@ -70,7 +70,7 @@ pfm/
 
 #### MySQL Connector/C++
 - Télécharger `mysql-connector-c++-9.3.0-winx64.zip` depuis https://dev.mysql.com
-- Extraire dans `C:\Users\ycode\Downloads\mysql-connector-c++-9.3.0-winx64`
+- Extraire dans `C:/Users/ycode/Documents/mysql-connector-c++-9.3.0-winx64/include`
 - Copier les DLL nécessaires dans `build/` :
   ```bash
   copy "...\lib64\mysqlcppconn-10-vs14.dll" build
