@@ -18,8 +18,6 @@ HEADERS += \
     include/grade.h \
     include/database_manager.h
 
-INCLUDEPATH += "C:/Users/ycode/Documents/mysql-connector-c++-9.3.0-winx64/include"
-INCLUDEPATH += "include"
-LIBS += -L"C:/Users/ycode/Documents/mysql-connector-c++-9.3.0-winx64/lib64" -lmysqlcppconn-10-vs14
+INCLUDEPATH += "C:/Users/ycode/Documents/mysql-connector-c++-9.3.0-winx64/mysql-connector-c++-9.3.0-winx64/include" "C:/Users/ycode/Documents/mysql-connector-c++-9.3.0-winx64/mysql-connector-c++-9.3.0-winx64/include/jdbc"
+LIBS += -L"C:/Users/ycode/Documents/mysql-connector-c++-9.3.0-winx64/mysql-connector-c++-9.3.0-winx64/lib64/vs14" -lmysqlcppconn -lstdc++
 
-RESOURCES += resources/app.qrc

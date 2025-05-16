@@ -310,8 +310,7 @@ Makefile: student_management.pro ../../../../Qt/6.9.0/mingw_64/mkspecs/win32-g++
 		../../../../Qt/6.9.0/mingw_64/lib/Qt6Gui.prl \
 		../../../../Qt/6.9.0/mingw_64/lib/Qt6Core.prl \
 		../../../../Qt/6.9.0/mingw_64/lib/Qt6EntryPoint.prl \
-		../../../../Qt/6.9.0/mingw_64/mkspecs/features/build_pass.prf \
-		resources/app.qrc
+		../../../../Qt/6.9.0/mingw_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile student_management.pro
 ../../../../Qt/6.9.0/mingw_64/mkspecs/features/spec_pre.prf:
 ../../../../Qt/6.9.0/mingw_64/mkspecs/features/device_config.prf:
@@ -554,7 +553,6 @@ student_management.pro:
 ../../../../Qt/6.9.0/mingw_64/lib/Qt6Core.prl:
 ../../../../Qt/6.9.0/mingw_64/lib/Qt6EntryPoint.prl:
 ../../../../Qt/6.9.0/mingw_64/mkspecs/features/build_pass.prf:
-resources/app.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile student_management.pro
 

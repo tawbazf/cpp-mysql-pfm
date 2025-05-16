@@ -1,8 +1,8 @@
 {
-    "configurations": [
-        {
-            "name": "Win32",
-            "includePath": [
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
                 "${workspaceFolder}/include",
                 "C:/Users/ycode/Documents/mysql-connector-c++-9.3.0-winx64/mysql-connector-c++-9.3.0-winx64/include/jdbc",
                 "C:/Qt/6.9.0/mingw_64/include",
@@ -10,16 +10,30 @@
                 "C:/Qt/6.9.0/mingw_64/include/QtGui",
                 "C:/Qt/6.9.0/mingw_64/include/QtWidgets"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "compilerPath": "C:/Qt/Tools/mingw1310_64/bin/g++.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x64"
-        }
-    ],
-    "version": 4
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "compilerPath": "C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true,
+        "path": [
+          "${workspaceFolder}/include",
+          "C:/Users/ycode/Documents/mysql-connector-c++-9.3.0-winx64/mysql-connector-c++-9.3.0-winx64/include/jdbc",
+          "C:/Qt/6.9.0/mingw_64/include",
+          "C:/Qt/6.9.0/mingw_64/include/QtCore",
+          "C:/Qt/6.9.0/mingw_64/include/QtGui",
+          "C:/Qt/6.9.0/mingw_64/include/QtWidgets"
+        ],
+        "exclude": [
+          "**/moc_*.h"
+        ]
+      },
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-x64"
+    }
+  ],
+  "version": 4
 }
