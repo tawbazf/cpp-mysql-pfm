@@ -1,4 +1,5 @@
 QT += core gui widgets
+CONFIG += c++17
 TARGET = student_management
 TEMPLATE = app
 
