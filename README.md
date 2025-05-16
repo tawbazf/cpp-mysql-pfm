@@ -27,16 +27,34 @@ La base de données est hébergée localement via **XAMPP**.
 - **IDE** : Qt Creator recommandé (ou VS Code)
 
 ## Structure du Projet
-pfm c++/
-├── include/ # Fichiers d'en-tête
-├── src/ # Sources C++
-├── sql/ # Scripts SQL
-├── ui/ # Interfaces Qt
-├── resources/ # Ressources Qt
-├── docs/ # Documentation
-├── build/ # Fichiers compilés
-├── student_management.pro # Fichier projet Qt
-└── README.md # Ce fichier
+pfm/
+├── include/                    # Fichiers d'en-tête C++
+│   ├── student.h
+│   ├── subject.h
+│   ├── grade.h
+│   ├── database_manager.h
+│   ├── mainwindow.h
+├── src/                        # Fichiers source C++
+│   ├── student.cpp
+│   ├── subject.cpp
+│   ├── grade.cpp
+│   ├── database_manager.cpp
+│   ├── mainwindow.cpp
+│   ├── main.cpp
+├── sql/                        # Scripts SQL
+│   ├── create_database.sql
+├── ui/                         # Fichiers d'interface Qt (optionnel)
+│   ├── mainwindow.ui
+├── resources/                  # Ressources Qt
+│   ├── app.qrc
+├── docs/                       # Documentation
+│   ├── livrable.pdf
+│   ├── presentation.pdf
+│   ├── diagrams/
+├── build/                      # Sortie de compilation
+│   ├── student_management.exe
+├── student_management.pro      # Fichier projet Qt
+└── README.md                   # Ce fichier
 
 ## Installation
 
